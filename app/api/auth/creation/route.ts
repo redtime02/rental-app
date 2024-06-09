@@ -29,5 +29,5 @@ export async function GET() {
     });
   }
 
-  return NextResponse.redirect("https://rental-app-cled.vercel.app/");
+  return NextResponse.redirect("https://rental-app-cled.vercel.app");
 }
