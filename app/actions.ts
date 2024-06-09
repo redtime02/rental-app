@@ -114,8 +114,6 @@ export async function createDescription(formData: FormData) {
         (error, result) => {
           if (error) {
             reject(error);
-          } else {
-            resolve(result.secure_url);
           }
         }
       );
